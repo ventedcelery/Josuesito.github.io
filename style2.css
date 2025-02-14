@@ -1,0 +1,128 @@
+/* Reset de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fuentes y estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Barra de navegación */
+.navbar {
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center;
+  background: linear-gradient(to right, #ffffff, #2ba7fa);
+  padding: 10px 20px;
+}
+
+.navbar .logo img {
+  width: 120px; 
+  margin-right: 20px; 
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: rgb(95, 93, 93);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-links a:hover {
+  color: #000000;
+}
+
+/* Sección de Contacto */
+.contact-section {
+    background: linear-gradient(to right, #284ffc, #2ba7fa);
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      max-width: 500px;
+      width: 90%;
+      text-align: center;
+    }
+    
+    .contact-section h2 {
+      margin-bottom: 10px;
+      font-size: 28px;
+      color: #ffffff;
+    }
+    
+    .contact-section p {
+      font-size: 16px;
+      margin-bottom: 20px;
+      color: #ffffff;
+    }
+    
+    /* Formulario */
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    
+    .form-group {
+      text-align: left;
+    }
+    
+    .form-group label {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 5px;
+      display: block;
+    }
+    
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      outline: none;
+      transition: border-color 0.3s ease;
+    }
+    
+    .form-group input:focus,
+    .form-group textarea:focus {
+      border-color: #000000;
+    }
+    
+    button {
+      padding: 10px 15px;
+      font-size: 16px;
+      color: #fff;
+      background: linear-gradient(to right, #63d9ee, #176279, #218bee96, #3a1af1);
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+    
+    button:hover {
+      background-color: #ffffff;
+    }
+
+    
